@@ -1,7 +1,7 @@
 Overview
 =========
 
-##A multi-pedestrian tracker as proposed in the paper:##
+A **multi-pedestrian tracker** as proposed in the paper:
 
 *Führ, G. ; Jung, C. R. Combining Patch Matching and Detection for Robust* 
 *Pedestrian Tracking in Monocular Calibrated Cameras. Pattern Recognition Letters* 
