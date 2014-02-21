@@ -1,0 +1,62 @@
+DataImgPrm       root ( 8 ):
+  ChnImgPrm        chnPrm ( 15 ):
+    int              w                   = 64
+    int              h                   = 128
+    int              nCh                 = -1
+    int              norm                = 4
+    int              oBin                = 6
+    bool             grad                = 1
+    int              gray                = 4
+    int              orig                = 0
+    int              padx                = 21
+    int              pady                = 21
+    int              smth0               = 1
+    int              smth1               = 0
+    int              shrink              = 2
+    int              joint               = 0
+    WrapSavable      cImgPrm ( 1 ):
+      bool             val                 = 0
+  double           prior               = 0.5
+  bool             cache               = 0
+  HaarPrm          haarPrm ( 19 ):
+    int              wd                  = 0
+    int              ht                  = 0
+    int              nCh                 = 1
+    int              areaMin             = 25
+    int              areaMax             = 2147483647
+    int              dimMin              = 1
+    int              dimMax              = 2147483647
+    int              nRand               = 30000
+    int              maxRects            = 1
+    bool             types               = [ 1 1 1 1 1 1 1 1 1 1 ]
+    int              nLocs               = 1
+    int              nSizes              = 1
+    double           areaRatio           = 0.5
+    double           sizeStep            = 2
+    double           overlap             = 0.6
+    int              cWd                 = 0
+    int              cHt                 = 0
+    double           cDist               = 0
+    bool             cEllipse            = 0
+  ImgLocPrm        data0 ( 7 ):
+    char             dir                 = "data/train/negHard"
+    char             name                = "I"
+    char             ext                 = ".png"
+    ushort           d                   = [ 0 0 ]
+    ushort           f                   = [ 0 14999 ]
+    ushort           dDigits             = 2
+    ushort           fDigits             = 5
+  ImgLocPrm        data1 ( 7 ):
+    char             dir                 = "data/train/pos"
+    char             name                = "I"
+    char             ext                 = ".png"
+    ushort           d                   = [ 0 0 ]
+    ushort           f                   = [ 0 2473 ]
+    ushort           dDigits             = 2
+    ushort           fDigits             = 5
+  Matrix<uchar>    imgs0 ( 2 ):
+    int              dims                = [ 0 0 0 ]
+    uchar            data                = [ ]
+  Matrix<uchar>    imgs1 ( 2 ):
+    int              dims                = [ 0 0 0 ]
+    uchar            data                = [ ]

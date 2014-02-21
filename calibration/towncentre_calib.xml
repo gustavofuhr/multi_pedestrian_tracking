@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Camera name="town_centre">
+	<Geometry width="1920" height="1080" ncx="0.0" nfx="0.0" dx="0.0" dy="0.0" dpx="1.0" dpy="1.0"/>
+	<Intrinsic focal="2696.35" kappa1="0" cx="959.5" cy="539.5" sx="1.0"/>
+	<Extrinsic tx="-0.05988363921642303467" ty="3.83331298828125000000" tz="12.39112186431884765625" rx="2.230040954281367" ry="-0.977176117647404" rz="-0.596027495864416"/>
+</Camera>
